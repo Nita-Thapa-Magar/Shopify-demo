@@ -1,0 +1,19 @@
+/*For brand section*/
+#brand-section {
+    margin: 20px 70px;
+    border: 1px solid seagreen;
+  }
+   #brand-section .brand-container {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 20px 50px;
+  }
+  .brand-title{
+    text-align: center;
+    font-weight: bold;
+  }
+  .brands {
+    display: flex;
+    flex-direction: row;
+  }

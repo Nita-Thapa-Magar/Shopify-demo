@@ -1,0 +1,30 @@
+footer{
+    background-color: #232323;
+    width: 100%;
+    color:#fff;
+}
+.footer-row{
+    margin: 0 20px;
+}
+.footer-row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer-column{
+    float: left;
+    width: 33%;
+    padding: 0px 10px;
+   
+}
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .footer-row{
+        margin: 0;
+    }
+    .footer-column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
